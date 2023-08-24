@@ -26,15 +26,15 @@ console.log("Hello, " + userName + "!");
 
 /***********************  Exercise 3  ************************/
 
-function goToTheCoffeeShop(drink) {
-    alert(`A ${drink} is on the way!`);
+function goToTheCoffeeShop(drink, pastry) {
+    alert(`A ${drink} and ${pastry} is on the way!`);
 }
 
 // Call this function so that the alert reads "A latte is on the way!"
+goToTheCoffeeShop("latte");
 
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
-
-
+goToTheCoffeeShop("Chai", "Croissant");
 
 
 /***********************  Exercise 4  ************************/
@@ -42,16 +42,23 @@ function goToTheCoffeeShop(drink) {
 // Let’s create a function to calculate the area of a circle.
 
 // Here is the code for calculating the area of a circle:
-let area = Math.PI * radius * radius;
+// let area = Math.PI * radius * radius;
+
 // put the above code into your function (don't leave it outside the function!)
-
+function circleArea(radius) {
+ let area = Math.PI * radius * radius;
+}
 // How many variables will we need, if any, to write our function?
-
+1
 // How many parameters, if any?
-
+1
 // Now write the function.
+function circleArea(radius) {
+  let area = Math.PI * radius * radius;
+  console.log(area);
+}
 
-
+circleArea(5);
 
 // Call the function for a circle with the radius of 15. You should get a value of 706 and a lot of digits after the decimal point.
 
