@@ -103,7 +103,7 @@ addNumbers(1, 3);
 
   function showMessage(from, text) { 
     // Add the code to the code block that will create the following outputs.
-    let 
+    
   }
   
   showMessage('Ann', 'Hello!'); // Ann: Hello!
@@ -112,13 +112,17 @@ addNumbers(1, 3);
 /***********************  Exercise 7  ************************/
 
 // Declare a function called multiplyFive which accepts a number and returns that number multiplied by 5.
-
-
-
-
-
+function multiplyFive(userNumber) {
+  // userNumber = prompt("Please enter a number: ");
+  console.log(userNumber * 5);
+}
 
 // Call the function 3 times with different inputs.
+
+multiplyFive(23);
+multiplyFive(17);
+multiplyFive(10);
+
 
 
 
