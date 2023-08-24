@@ -6,19 +6,23 @@ function greet(name) {
   
 // Call the function multiple times, so you see the following outputs in the console.
 // Output: Hello, Grace!
+greet("Grace")
 // Output: Hello, Jael!
+greet("Jael")
 // Output: Hello, Marcus!
+greet("Marcus")
 
 
 /***********************  Exercise 2  ************************/
 function greetMessage(name) {
     console.log("Hello, " + name + "!");
 }
-  
-// Create a variable called userName and assigned it any string value. Pass in that variable as the argument when calling the function.
 
+// Create a variable called userName and assigned it any string value. 
+//Pass in that variable as the argument when calling the function.
+let userName = "Shan";
 // What do you see in the console?
-
+console.log("Hello, " + userName + "!");
 
 /***********************  Exercise 3  ************************/
 
