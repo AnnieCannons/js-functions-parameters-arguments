@@ -123,13 +123,14 @@ multiplyFive(23);
 multiplyFive(17);
 multiplyFive(10);
 
-
-
-
 /***********************  Exercise 8  ************************/
-// Declare a function that will take in an array as an argument and log the third item in the array to the console. 
+// Declare a function 
+//that will take in an array as an argument 
+//and log the third item in the array to the console. 
 
+function array(){ 
 
+}
 
 /***********************  Exercise 9  ************************/
 // Declare a function that will take in the following object and alert the following, "Welcome, [FULLNAME]. Your email address is [EMAILADDRESS]"
@@ -146,6 +147,11 @@ let userObject = {
     emailAddress: 'rose@smithcoders.com'
 }
 
+function alertUser() {
+  alert("Welcome, " + userObject.name.first + " " + userObject.name.last + ". Your email address is " + userObject.emailAddress);
+}
+
+console.log(alertUser());
 /***********************  Exercise 10  ************************/
 
 function sortArray(string) {
