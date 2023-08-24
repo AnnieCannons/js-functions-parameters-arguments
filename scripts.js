@@ -152,6 +152,7 @@ function alertUser() {
 }
 
 console.log(alertUser());
+
 /***********************  Exercise 10  ************************/
 
 function sortArray(string) {
@@ -164,4 +165,4 @@ const alphaArray = sortArray(stringArray);
 
 
 // Describe what the above code is doing?
-  
+  "the function is declared. The parameter of string is passed. Alpha is defined as a string that is sorted. the console will log the variable alpha. A variable of stringArray is defined by an array with 5 strings of informaion. alphaArray is calling to sort the stringArray info."
