@@ -58,11 +58,9 @@ function circleArea(radius) {
   console.log(area);
 }
 
-circleArea(5);
+circleArea(15);
 
 // Call the function for a circle with the radius of 15. You should get a value of 706 and a lot of digits after the decimal point.
-
-
 
 
 
@@ -71,20 +69,32 @@ circleArea(5);
 // function addNumbers[num1, num2] {
 //     let result = num1 + num2;
 //     console.log(result);
-//   }
+// }
 
-// Remove the comments from the function above. Call the above function.
+// addNumbers();
+
+// Remove the comments from the function above. 
+// Call the above function.
 
 // What errors do you see in the console?
+// scripts.js:69 Uncaught SyntaxError: Unexpected token '[' (at scripts.js:69:20)
 
 // Fix the funciton so that you can call it without errors.
+function addNumbers(num1, num2) {
+  let result = num1 + num2;
+  console.log(result);
+}
+
 
 // Call the above function for the following outputs:
 // Output: 15
+addNumbers(7, 8);
 // Output: 34
+addNumbers(23, 11);
 // Output: 20
+addNumbers(13, 7);
 // Output: 4
-
+addNumbers(1, 3);
 
 /***************************  BONUS PRACTICE  *********************************/
 
@@ -93,6 +103,7 @@ circleArea(5);
 
   function showMessage(from, text) { 
     // Add the code to the code block that will create the following outputs.
+    let 
   }
   
   showMessage('Ann', 'Hello!'); // Ann: Hello!
