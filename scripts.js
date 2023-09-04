@@ -8,7 +8,9 @@ function greet(name) {
 // Output: Hello, Grace!
 // Output: Hello, Jael!
 // Output: Hello, Marcus!
-
+greet('Grace')
+greet('Jael')
+greet('Marcus')
 
 /***********************  Exercise 2  ************************/
 function greetMessage(name) {
@@ -16,21 +18,24 @@ function greetMessage(name) {
 }
   
 // Create a variable called userName and assigned it any string value. Pass in that variable as the argument when calling the function.
-
+let userName = 'Laila'
+greetMessage(userName)
 // What do you see in the console?
-
+// i got my Laila
 
 /***********************  Exercise 3  ************************/
 
-function goToTheCoffeeShop(drink) {
-    alert(`A ${drink} is on the way!`);
+function goToTheCoffeeShop(drink,pastry) {
+    console.log(`A ${drink} and ${pastry} is on the way!`);
 }
 
 // Call this function so that the alert reads "A latte is on the way!"
 
+// goToTheCoffeeShop('latte')
+
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
 
-
+goToTheCoffeeShop("latte","Muffin")
 
 
 /***********************  Exercise 4  ************************/
@@ -38,30 +43,36 @@ function goToTheCoffeeShop(drink) {
 // Let’s create a function to calculate the area of a circle.
 
 // Here is the code for calculating the area of a circle:
-let area = Math.PI * radius * radius;
+// let area = Math.PI * radius * radius;
 // put the above code into your function (don't leave it outside the function!)
 
 // How many variables will we need, if any, to write our function?
-
+// i think 3
 // How many parameters, if any?
-
+// 1
 // Now write the function.
 
-
+function circle(radius){
+  let area = Math.PI * radius * radius;
+  console.log(area)
+}
 
 // Call the function for a circle with the radius of 15. You should get a value of 706 and a lot of digits after the decimal point.
 
-
+circle(15)
 
 
 
 /***********************  Exercise 5  ************************/
 
-// function addNumbers[num1, num2] {
-//     let result = num1 + num2;
-//     console.log(result);
-//   }
-
+function addNumbers(num1, num2){
+    let result = num1 + num2;
+    console.log(result);
+  }
+addNumbers(5,10)
+addNumbers(15,19)
+addNumbers(12,8)
+addNumbers(2,2)
 // Remove the comments from the function above. Call the above function.
 
 // What errors do you see in the console?
