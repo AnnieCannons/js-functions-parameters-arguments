@@ -90,9 +90,8 @@ let result = num1 + num2;
 console.log(result);
 };
 
-num1 = 6;
-num2 = 5
-addNumbers(num1, num2);
+
+
 
 // Remove the comments from the function above. Call the above function.
 
@@ -102,22 +101,20 @@ addNumbers(num1, num2);
 
 // Call the above function for the following outputs:
 // Output: 15
-num1 = 5;
-num2 = 10;
-addNumbers(num1, num2);
+
+addNumbers(12, 3);
 // Output: 34
-num1 = 33;
-num2 = 1;
-addNumbers(num1, num2);
+
+addNumbers(30, 4);
+
+addNumbers(15, 5);
 // Output: 20
-num1 = 10;
-num2 = 10;
-addNumbers(num1, num2);
+
+addNumbers(3, 1);
 // Output: 4
 
-num1 = 1;
-num2 = 3;
-addNumbers(num1, num2);
+
+
 
 
 
