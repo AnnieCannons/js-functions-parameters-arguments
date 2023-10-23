@@ -31,6 +31,8 @@ greetMessage(userName)
 
 
 /***********************  Exercise 3  ************************/
+let drinkIOrdered = "Latte";
+let pastryIOrdered = "Cake Pop";
 
 function goToTheCoffeeShop(drink) {
     alert(`A ${drink} is on the way!`);
@@ -38,13 +40,15 @@ function goToTheCoffeeShop(drink) {
 
 // Call this function so that the alert reads "A latte is on the way!"
 
+//goToTheCoffeeShop();
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
+function goToTheCoffeeShop(drink, pastry) {
+  alert(`A ${drink} and ${pastry} is on the way!`);
+}
 
-let drinkIOrdered = 'latte'
-let pastryIOrdered = 'cake pop'
-///goToTheCoffeeShop(drinkIOrdered)
+//goToTheCoffeeShop()
 
-//goToTheCoffeeShop(drinkIOrdered, pastryIOrdered)
+
 /***********************  Exercise 4  ************************/
 
 // Let’s create a function to calculate the area of a circle.
@@ -97,20 +101,16 @@ function addNumbers(result) {
 // Output: 20
 // Output: 4
 
-//let num1 = 10
-//let num2 = 5
+addNumbers(12, 3);
+// Output: 34
 
-//let num1 = 15
-//let num2 = 19
+addNumbers(30, 4);
 
-//let num1 = 10
-//let num2 = num1
+addNumbers(15, 5);
+// Output: 20
 
-let num1 = 2
-let num2 = num1
-
-
-addNumbers();
+addNumbers(3, 1);
+// Output: 4
 
 /***************************  BONUS PRACTICE  *********************************/
 
