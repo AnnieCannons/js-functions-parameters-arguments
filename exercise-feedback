@@ -1,0 +1,4 @@
+Exercises 1-4 are great! Job well done!
+
+For Exercise 5, you are reassigning the values of num1 and num2 multiple times, but you have never declared them as variables. Are these meant to be global variables? 
+num1 and num2 are also the names of the parameters in the function, so it could be helpful to name the global variables a different name.

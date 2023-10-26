@@ -6,14 +6,20 @@ function greet(name) {
   
 // Call the function multiple times, so you see the following outputs in the console.
 // Output: Hello, Grace!
+greet("Grace");
 // Output: Hello, Jael!
+greet("Jael");
 // Output: Hello, Marcus!
+greet("Marcus");
 
 
 /***********************  Exercise 2  ************************/
 function greetMessage(name) {
     console.log("Hello, " + name + "!");
 }
+let userName = "Inigo Montoya";
+
+greetMessage(userName);
   
 // Create a variable called userName and assigned it any string value. Pass in that variable as the argument when calling the function.
 
@@ -22,13 +28,19 @@ function greetMessage(name) {
 
 /***********************  Exercise 3  ************************/
 
-function goToTheCoffeeShop(drink) {
-    alert(`A ${drink} is on the way!`);
+function goToTheCoffeeShop(drink, pastry) {
+    alert(`A ${drink} and ${pastry} are on the way!`);
 }
 
+//goToTheCoffeeShop("latte");
 // Call this function so that the alert reads "A latte is on the way!"
 
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
+
+let pastryOrder = "scone";
+//goToTheCoffeeShop("Latte", pastryOrder);
+
+//could alternatively type in the word "scone" as a string instead of the variable name
 
 
 
@@ -38,7 +50,7 @@ function goToTheCoffeeShop(drink) {
 // Let’s create a function to calculate the area of a circle.
 
 // Here is the code for calculating the area of a circle:
-let area = Math.PI * radius * radius;
+//let area = Math.PI * radius * radius;
 // put the above code into your function (don't leave it outside the function!)
 
 // How many variables will we need, if any, to write our function?
@@ -46,6 +58,22 @@ let area = Math.PI * radius * radius;
 // How many parameters, if any?
 
 // Now write the function.
+
+function circleArea(radius1, radius2) {
+  let area = Math.PI * radius1 * radius2;
+  console.log(area);
+};
+
+let firstRadius = 15;
+let secondRadius = 15;
+
+
+circleArea(firstRadius, secondRadius);
+
+let thirdRadius = 20;
+let fourthRadius = 20;
+
+circleArea(thirdRadius, fourthRadius);
 
 
 
@@ -57,10 +85,13 @@ let area = Math.PI * radius * radius;
 
 /***********************  Exercise 5  ************************/
 
-// function addNumbers[num1, num2] {
-//     let result = num1 + num2;
-//     console.log(result);
-//   }
+function addNumbers(num1, num2) {
+let result = num1 + num2;
+console.log(result);
+};
+
+
+
 
 // Remove the comments from the function above. Call the above function.
 
@@ -70,9 +101,21 @@ let area = Math.PI * radius * radius;
 
 // Call the above function for the following outputs:
 // Output: 15
+
+addNumbers(12, 3);
 // Output: 34
+
+addNumbers(30, 4);
+
+addNumbers(15, 5);
 // Output: 20
+
+addNumbers(3, 1);
 // Output: 4
+
+
+
+
 
 
 /***************************  BONUS PRACTICE  *********************************/
