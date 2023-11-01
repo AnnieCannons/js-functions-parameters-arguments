@@ -5,9 +5,10 @@ function greet(name) {
 }
   
 // Call the function multiple times, so you see the following outputs in the console.
-// Output: Hello, Grace!
-// Output: Hello, Jael!
-// Output: Hello, Marcus!
+
+greet("Grace");
+greet("Jael");
+greet("Marcus");
 
 
 /***********************  Exercise 2  ************************/
@@ -16,6 +17,9 @@ function greetMessage(name) {
 }
   
 // Create a variable called userName and assigned it any string value. Pass in that variable as the argument when calling the function.
+
+let userName = "John";
+greetMessage(userName);
 
 // What do you see in the console?
 
@@ -30,7 +34,7 @@ function goToTheCoffeeShop(drink) {
 
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
 
-
+goToTheCoffeeShop("latte", "croissant");
 
 
 /***********************  Exercise 4  ************************/
@@ -41,13 +45,17 @@ function goToTheCoffeeShop(drink) {
 let area = Math.PI * radius * radius;
 // put the above code into your function (don't leave it outside the function!)
 
+
+
 // How many variables will we need, if any, to write our function?
-
 // How many parameters, if any?
-
 // Now write the function.
 
 
+function calculateArea(radius) {
+  let area = Math.PI * radius * radius;
+  console.log(area);
+}
 
 // Call the function for a circle with the radius of 15. You should get a value of 706 and a lot of digits after the decimal point.
 
@@ -74,6 +82,11 @@ let area = Math.PI * radius * radius;
 // Output: 20
 // Output: 4
 
+addNumbers(7, 8);
+addNumbers(19, 15);
+addNumbers(10, 10);
+addNumbers(2, 2);
+
 
 /***************************  BONUS PRACTICE  *********************************/
 
@@ -91,19 +104,25 @@ let area = Math.PI * radius * radius;
 
 // Declare a function called multiplyFive which accepts a number and returns that number multiplied by 5.
 
-
+function multiplyFive(num) {
+  return num * 5;
+}
 
 
 
 
 // Call the function 3 times with different inputs.
 
-
+console.log(multiplyFive(2));
+console.log(multiplyFive(4));
+console.log(multiplyFive(10));
 
 /***********************  Exercise 8  ************************/
 // Declare a function that will take in an array as an argument and log the third item in the array to the console. 
 
-
+function logThirdItem(array) {
+  console.log(array[2]);
+}
 
 /***********************  Exercise 9  ************************/
 // Declare a function that will take in the following object and alert the following, "Welcome, [FULLNAME]. Your email address is [EMAILADDRESS]"
@@ -118,7 +137,12 @@ let userObject = {
     favoriteTVShows: ["Fargo", "Breaking Bad", "Battlestar Galactica"],
     pets: ["Pal"],
     emailAddress: 'rose@smithcoders.com'
-}
+};
+
+welcomeUser(userObject);
+
+
+
 
 /***********************  Exercise 10  ************************/
 
@@ -132,4 +156,6 @@ const alphaArray = sortArray(stringArray);
 
 
 // Describe what the above code is doing?
+
+// the code definesa constant array called StringArray
   
