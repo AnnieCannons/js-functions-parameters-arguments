@@ -32,6 +32,8 @@ function goToTheCoffeeShop(drink) {
 
 // Call this function so that the alert reads "A latte is on the way!"
 
+goToTheCoffeeShop("latte");
+
 // Modify the function so that the function takes in two parameters, a drink and a pastry. Call the function with two arguments.
 
 goToTheCoffeeShop("latte", "croissant");
@@ -59,7 +61,7 @@ function calculateArea(radius) {
 
 // Call the function for a circle with the radius of 15. You should get a value of 706 and a lot of digits after the decimal point.
 
-
+calculateArea(15);
 
 
 
@@ -139,6 +141,10 @@ let userObject = {
     emailAddress: 'rose@smithcoders.com'
 };
 
+function welcomeUser(user) {
+  console.log(`Welcome, ${user.name.first} ${user.name.last}! Your email address is ${user.emailAddress}`);
+}
+
 welcomeUser(userObject);
 
 
@@ -157,5 +163,5 @@ const alphaArray = sortArray(stringArray);
 
 // Describe what the above code is doing?
 
-// the code definesa constant array called StringArray
+ //The code definesa constant array called StringArray
   
