@@ -26,8 +26,8 @@ greetMessage(userName);
 
 /***********************  Exercise 3  ************************/
 
-function goToTheCoffeeShop(drink) {
-    alert(`A ${drink} is on the way!`);
+function goToTheCoffeeShop(drink, pastry) {
+    alert(`A ${drink} and ${pastry} are on the way!`);
 }
 
 // Call this function so that the alert reads "A latte is on the way!"
